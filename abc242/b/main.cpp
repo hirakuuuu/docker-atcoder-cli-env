@@ -9,6 +9,9 @@ const int mod = 998244353;
 
 
 int main(){
+    string s; cin >> s;
+    sort(s.begin(), s.end());
+    cout << s << endl;
 
     return 0;
 }
